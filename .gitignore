@@ -1,0 +1,16 @@
+# Terraform generated files and local backups
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+*.tf.bak
+*~
+
+# Maven build output
+**/target/
+
+# Local secrets
+.env
+.env.*
+!.env.example
